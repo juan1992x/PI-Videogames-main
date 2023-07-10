@@ -1,0 +1,15 @@
+.Container{
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 340px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* background: linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9); */
+}
+
+img{
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://cdn.colombia.com/sdi/2022/12/09/colombia-es-el-segundo-pais-con-mayor-consumo-de-videojuegos-en-america-latina-1096928.jpg) center;
+    background-size: cover;
+} */
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.GenreBox{
+    margin-left: 25%;
+    width: 50%;
+}
+
+input{
+    padding: 5px;
+    
+}
+
+.GenreBox input {
+    margin: 10px;
+}

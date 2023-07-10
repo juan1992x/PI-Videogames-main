@@ -1,0 +1,15 @@
+.Container{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin-left: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
+
+input{
+    border-radius: 5px;
+}

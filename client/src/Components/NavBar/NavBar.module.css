@@ -1,0 +1,25 @@
+.Container {
+    /* height: 50px;
+    width: 200px; */
+    background: #ddffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 35px;
+    width: 95%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.Link{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.Link:hover{
+    transform: scale(1);
+}
+

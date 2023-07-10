@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: rgb(18, 18, 19);
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+}
+
+
+button{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 120px;
+    background: #141414;
+    color:  white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Button::after{
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 150px;
+    background: #eec400;
+    border-radius: 80px;
+    z-index: 10;
+    top: -150px;
+    transition: .3s ease-in-out all;
+}
+
+.Button:hover::after{
+    top: -40px;
+    color: #141414;
+}
+
+.Button span{
+    position: relative;
+    z-index: 100;
+    transition: .3s ease all;
+}
+
+.ButtonContain{
+    position: absolute;
+    top: 500px;
+}
+
+.Text{
+    margin-top: 200px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ContainerAfter::after{
+    z-index: 10;
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 12%;
+    height: 400px;
+    width: 485px;
+    background: linear-gradient(to right, #c33764, #1d2671);
+    filter:blur(10px) 
+     content: '';
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    background-image: url(https://cdn.colombia.com/sdi/2022/12/09/colombia-es-el-segundo-pais-con-mayor-consumo-de-videojuegos-en-america-latina-1096928.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 99.5vh;
+    width: 99.5%;
+    overflow: hidden;
+    filter: blur(10px);
+    z-index: 50;
+} */
+
+/* .TextSpan {
+    z-index: 12;
+} */
+
+/* .Container::before{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: -95px;
+    top: -475px;
+    height: 800px;
+    width: 800px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: giroscope 6s linear infinite;
+    z-index: 2; */
+/* } */
+
+/* .Container::after{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: -95px;
+    top: -475px;
+    height: 800px;
+    width: 800px;
+    background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+    transform-origin: bottom right;
+    animation: giroscope 6s linear infinite;
+    animation-delay: -3s;
+    z-index: 3;
+} */
+
+/* @keyframes giroscope {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } */
+/* } */

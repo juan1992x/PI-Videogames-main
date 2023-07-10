@@ -1,9 +1,33 @@
-import './App.css';
+// import "./App.css";
+import React from 'react';
+import "./globalcss/global.css"
+import { Route } from "react-router-dom";
+
+import Landing from "./Components/LANDING/Landingpage"
+import Home from "./Components/Home/HomePage"
+import Detail from "./Components/Detail/detail"
+import Form from "./Components/Form/Form"
+import NavBar from "./Components/NavBar/NavBar"
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import "./App.css";
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
-      <h1>Henry Videogames</h1>
+      {location.pathname !== "/" && <NavBar />}
+      <Route exact path="/">
+        <Landing />
+      </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+      <Route path="/form">
+        <Form />
+      </Route>
+      <Route path="/detail/:detailId">
+        <Detail />
+      </Route>
     </div>
   );
 }

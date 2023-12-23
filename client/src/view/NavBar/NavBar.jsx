@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
-import { SearchBar } from "../SearchBar/SearchBar";
-import FilterOptions from "../FilterOptions/FilterOptions"; // Importar el componente FilterOptions
+import { SearchBar } from "../../Components/SearchBar/SearchBar"
+import FilterOptions from "../../Components/FilterOptions/FilterOptions"; // Importar el componente FilterOptions
 
 const NavBar = () => {
   return (

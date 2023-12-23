@@ -3,11 +3,11 @@ import React from 'react';
 import "./globalcss/global.css"
 import { Route } from "react-router-dom";
 
-import Landing from "./Components/LANDING/Landingpage"
-import Home from "./Components/Home/HomePage"
+import Landing from "./view/LANDING/Landingpage"
+import Home from "./view/Home/HomePage"
 import Detail from "./Components/Detail/detail"
 import Form from "./Components/Form/Form"
-import NavBar from "./Components/NavBar/NavBar"
+import NavBar from "./view/NavBar/NavBar"
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import "./App.css";
 

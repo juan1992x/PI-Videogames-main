@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import CardContainer from "../CardContainer/CardContainer"
+import CardContainer from "../../Components/CardContainer/CardContainer"
 import { useEffect } from "react";
 import { getVideoGames } from "../../redux/actions";
 import style from "./Home.module.css";

@@ -8,6 +8,12 @@
     border: 1px solid black;
     border-radius: 8px;
     /* background: linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9); */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); /* Sombra para efecto 3D */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de transformación */
+}
+
+.Container:hover {
+    transform: translate(-5px, -5px); /* Mover la tarjeta hacia arriba y hacia la izquierda */
 }
 
 img{

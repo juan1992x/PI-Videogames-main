@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://media.giphy.com/media/JUegiSMuwLPmo/giphy.gif'); /* URL del GIF como fondo */
+  background-size: cover; /* Asegúrate de que el fondo cubra toda la página */
+  background-position: center; /* Centra el fondo */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  background-attachment: fixed; /* Hace que el fondo se quede fijo al desplazarse */
 }
 
 code {

@@ -13,12 +13,22 @@
     color: black;
     text-align: center;
     backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra para efecto 3D */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de transformación */
+}
+
+.Container:hover {
+    transform: translate(-5px, -5px); /* Mover el contenedor hacia arriba y hacia la izquierda */
 }
 
 img{
     width: 250px;
     height: 150px;
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Sombra suave para la imagen */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de transformación */
 }
 
-
-  
+img:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño de la imagen al pasar el cursor */
+}

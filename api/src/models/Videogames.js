@@ -6,6 +6,11 @@ module.exports = (sequelize) => {
   sequelize.define(
     "Videogames",
     {
+     
+      origin: {
+        type: DataTypes.STRING, // 'API' o 'Database'
+        allowNull: true // Puede ser null si decides establecerlo solo para juegos creados en tu base de datos
+      },
       id: {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
@@ -44,5 +49,6 @@ module.exports = (sequelize) => {
     {
       timestamps: false,
     }
+
   );
 };
